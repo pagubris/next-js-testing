@@ -54,6 +54,7 @@ export default function Home() {
           </h2>
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
             This will trigger lint error.
+            This is success
           </p>
         </a>
 
