@@ -3,7 +3,7 @@ name: Lint
 on:
   pull_request:
     branches:
-      - staging
+      - aman
 
 permissions:
   checks: write
@@ -18,7 +18,7 @@ jobs:
       - name: Check out Git repository
         uses: actions/checkout@v3
         with:
-          ref: staging
+          ref: aman
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
